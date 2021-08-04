@@ -62,7 +62,29 @@
                 </div>
                 <input class="answer__container" type="text" name="answer" id="answer" />
             </form>
-        </section>        
+        </section> 
+        <section class="main__container">
+            <h2>¿Es un triangulo isósceles? Si lo es, ¿Cuál es su altura?</h2>
+            <form>
+                <div class="label__container">
+                    <label for="ladoOne">Lado 1:</label>
+                    <input type="number" name="lado" id="ladoOne" />
+                </div>
+                <div class="label__container">
+                    <label for="ladoTwo">Lado 2:</label>
+                    <input type="number" name="lado" id="ladoTwo" />
+                </div>
+                <div class="label__container">
+                    <label for="base1">Base:</label>
+                    <input type="number" name="lado" id="base1" />
+                </div>
+                <div class="buttons__container">
+                    <button class="button__calcular" type="button" onclick="validacionTrianguloIsosceles()">¿Isósceles?</button>
+                    <button class="button__calcular" type="button" onclick="validacionAlturaTrianguloIsosceles()">Altura</button>
+                </div>
+                <input class="answer__container" type="text" name="answer" id="answer" />
+            </form>
+        </section>       
     </main>
     <footer>
         <p>Hecho con 🚀 por <a href="">MauricioJCarrillo</a></p>

@@ -1,4 +1,4 @@
-# Curso practico de javascript platzi:
+# Curso practico de JavaScript - Platzi
 
 This is my first project using javascript concepts. 
 

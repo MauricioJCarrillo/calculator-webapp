@@ -54,3 +54,36 @@ function calcularAreaCirculo() {
     const area = areaCirculo(value);
     alert("El área es: " + area); 
 }
+function validacionTrianguloIsosceles() {
+    const input1 = document.getElementById("ladoOne");
+    const input2 = document.getElementById("ladoTwo");
+    const input3 = document.getElementById("base1");
+    const value1 = Number(input1.value);
+    const value2 = Number(input2.value);
+    const value3 = Number(input3.value);
+    const value4 = Number(value3 / 2);
+    if((value1 || value2) < value4){
+        alert("No es un triangulo isósceles, ni siquiera es un triangulo");
+    }
+    else if(value1 != value2){
+        alert("No es un triangulo isósceles");
+    }
+    else alert("Si es un triangulo isósceles");
+}
+function validacionAlturaTrianguloIsosceles() {
+    const input1 = document.getElementById("ladoOne");
+    const input2 = document.getElementById("ladoTwo");
+    const input3 = document.getElementById("base1");
+    const value1 = Number(input1.value);
+    const value2 = Number(input2.value);
+    const value3 = Number(input3.value);
+    const value4 = Number(value3 / 2);
+    const altura = Number(Math.sqrt((value1)**2-(value3/2)**2));
+    if((value1 || value2) < value4){
+        alert("No es un triangulo isósceles, ni siquiera es un triangulo");
+    }
+    else if(value1 != value2){
+        alert("No es un triangulo isósceles");
+    }
+    else alert("La altura es: " + altura);
+}
