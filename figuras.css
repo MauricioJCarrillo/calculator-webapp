@@ -1,0 +1,98 @@
+:root {
+    --soft-orange: #da5e18;    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: var(--soft-orange);
+}
+header h1 {
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+header p {
+    font-size: 1.6rem;
+}
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+}
+.main__container {
+    width: 90%;
+    max-width: 330px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0px 3px 6px black;
+    border-radius: 10px;
+    box-shadow:
+}
+.main__container h2 {
+    padding-bottom: 15px;
+    text-align: center;
+}
+.label__container {
+    padding-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    text-align: center;
+}
+.label__container input {
+    margin: 5px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.buttons__container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.button__calcular {
+    width: 100px;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: var(--soft-orange);
+    border-radius: 15px;
+    border: none;
+}
+.answer__container {
+    display: flex;
+    margin: auto;
+    background-color: blanchedalmond;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+footer {
+    padding: 10px;
+    font-size: 1.6rem;
+    text-align: center;
+    color: white;
+    background-color: var(--soft-orange);
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
