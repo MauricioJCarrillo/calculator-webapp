@@ -10,3 +10,10 @@ This is my first project using javascript concepts.
 - Segundo paso: Implementar las fórmulas en JavaScript.
 - Tercer paso: Crear funciones.
 - Cuarto pasao: Integrar JavaScript con HTML. 
+
+## Practice N°2:Porcentajes y descuentos.
+
+- Primer paso: Definir las fórmulas.
+- Segundo paso: Implementar las fórmulas en JavaScript.
+- Tercer paso: Crear funciones.
+- Cuarto pasao: Integrar JavaScript con HTML.
