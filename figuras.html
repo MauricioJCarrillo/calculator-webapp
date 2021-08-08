@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./figuras.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Figuras geométricas</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
                     <button class="button__calcular" type="button" onclick="calcularPerimetroCuadrado()">Perímetro</button>
                     <button class="button__calcular" type="button" onclick="calcularAreaCuadrado()">Área</button>
                 </div>
-                <input class="answer__container" type="text" name="answer" id="answer" />
+                <p id="resultCuadrado">0</p>
             </form>
         </section>
         <section class="main__container">
@@ -46,7 +46,7 @@
                     <button class="button__calcular" type="button" onclick="calcularPerimetroTriangulo()">Perímetro</button>
                     <button class="button__calcular" type="button" onclick="calcularAreaTriangulo()">Área</button>
                 </div>
-                <input class="answer__container" type="text" name="answer" id="answer" />
+                <p id="resultTriangulo">0</p>
             </form>
         </section>
         <section class="main__container">
@@ -60,7 +60,7 @@
                     <button class="button__calcular" type="button" onclick="calcularPerimetroCirculo()">Circunferencia</button>
                     <button class="button__calcular" type="button" onclick="calcularAreaCirculo()">Área</button>
                 </div>
-                <input class="answer__container" type="text" name="answer" id="answer" />
+                <p id="resultCirculo">0</p>
             </form>
         </section> 
         <section class="main__container">
@@ -82,14 +82,13 @@
                     <button class="button__calcular" type="button" onclick="validacionTrianguloIsosceles()">¿Isósceles?</button>
                     <button class="button__calcular" type="button" onclick="validacionAlturaTrianguloIsosceles()">Altura</button>
                 </div>
-                <input class="answer__container" type="text" name="answer" id="answer" />
+                <p id="resultTrianguloIsosceles">0</p>
             </form>
         </section>       
     </main>
     <footer>
         <p>Hecho con 🚀 por <a href="">MauricioJCarrillo</a></p>
-    </footer>
-    
+    </footer>    
     <script src="./figuras.js"></script>
 </body>
 </html>

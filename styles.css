@@ -25,15 +25,19 @@ header p {
 }
 main{
     display: flex;
+    justify-content: center;
+    align-content: center;
     flex-flow: row wrap;
     width: 100%;
     height: auto;
+    padding: 20px 0;
     background-color: blanchedalmond;
 }
 .main__container {
     width: 90%;
     max-width: 330px;
-    margin: 30px auto;
+    max-height: 420px;
+    margin: 10px 10px;
     padding: 20px;
     box-shadow: 0px 3px 6px black;
     border-radius: 10px;
@@ -52,6 +56,7 @@ main{
     margin: 5px;
     font-size: 1.6rem;
     font-weight: bold;
+    text-align: center;
     background-color: blanchedalmond;
     outline: none;
     border: none;
@@ -60,6 +65,7 @@ main{
 .buttons__container {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 20px;
     padding-bottom: 20px;
 }
 .button__calcular {
@@ -72,13 +78,14 @@ main{
     border-radius: 15px;
     border: none;
 }
-.answer__container {
-    display: flex;
-    margin: auto;
-    background-color: blanchedalmond;
-    outline: none;
+.main__container p {
+    display: block;
+    padding: 5px;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: rgb(252, 216, 156);
     border: none;
-    border-bottom: 1px solid black;
+    border-radius: 13px;
 }
 footer {
     padding: 10px;
@@ -95,3 +102,11 @@ footer a:hover {
     color: black;
     text-decoration: underline;
 }
+/*----------------------------------------- Media Queries section*/
+/*Mobile first usa min-width = desde*/
+/*Desktop first usa max-width = hasta*/
+@media screen and (min-width: 1367px) {
+    main {
+      height: calc(100vh - 123px);
+    }
+  } 
