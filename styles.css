@@ -105,7 +105,7 @@ footer a:hover {
 /*----------------------------------------- Media Queries section*/
 /*Mobile first usa min-width = desde*/
 /*Desktop first usa max-width = hasta*/
-@media screen and (min-width: 1367px) {
+@media screen and (min-width: 1366px) {
     main {
       height: calc(100vh - 123px);
     }
