@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Operaciones estadísticas</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Operaciones estadísticas</h1>
-        <p>Este es el tercer taller de JavaScript</p>
+      <h1>Operaciones estadísticas</h1>
+      <p>Este es el tercer taller de JavaScript</p>
     </header>
     <main>
-        <section class="main__container">
-            <h2>Calcular el promedio aritmético, moda y mediana de un conjunto de datos</h2>
-            <form>
-                <div class="label__container">
-                    <label for="conjuntoDatos">Datos:</label>
-                    <input type="text" id="conjuntoDatos" />
-                </div>
-                <div class="buttons__container">
-                    <button class="button__calcular" type="button" onclick="calcularPromedio()">Promedio</button>
-                    <button class="button__calcular" type="button" onclick="calcularModa()">Moda</button>
-                    <button class="button__calcular" type="button" onclick="calcularMediana()">Mediana</button>
-                </div>
-                <p id="result">0</p>
-            </form>
-        </section>        
+      <section class="main__container">
+        <h2>
+          Calcular el promedio aritmético, moda y mediana de un conjunto de
+          datos
+        </h2>
+        <form>
+          <div class="label__container">
+            <label for="conjuntoDatos">Datos:</label>
+            <input type="text" id="conjuntoDatos" />
+          </div>
+          <div class="buttons__container">
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="calcularPromedio()"
+            >
+              Promedio
+            </button>
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="calcularModa()"
+            >
+              Moda
+            </button>
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="calcularMediana()"
+            >
+              Mediana
+            </button>
+          </div>
+          <p id="result">0</p>
+        </form>
+      </section>
     </main>
     <footer>
-        <p>Hecho con 🚀 por <a href="">MauricioJCarrillo</a></p>
-    </footer>    
+      <p>Hecho con 🚀 por <a href="">MauricioJCarrillo</a></p>
+    </footer>
     <script src="./estadistica.js"></script>
-</body>
+  </body>
 </html>

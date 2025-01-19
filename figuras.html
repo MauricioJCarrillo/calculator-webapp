@@ -1,94 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Figuras geométricas</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Figuras geométricas</h1>
-        <p>Este es el primer taller de JavaScript</p>
+      <h1>Figuras geométricas</h1>
+      <p>Este es el primer taller de JavaScript</p>
     </header>
     <main>
-        <section class="main__container">
-            <h2>Calcular el perímetro y área de un cuadrado</h2>
-            <form>
-                <div class="label__container">
-                    <label for="ladoCuadrado">Lado:</label>
-                    <input type="number" name="lado" id="ladoCuadrado" />
-                </div>
-                <div class="buttons__container">
-                    <button class="button__calcular" type="button" onclick="calcularPerimetroCuadrado()">Perímetro</button>
-                    <button class="button__calcular" type="button" onclick="calcularAreaCuadrado()">Área</button>
-                </div>
-                <p id="resultCuadrado">0</p>
-            </form>
-        </section>
-        <section class="main__container">
-            <h2>Calcular el perímetro y área de un triangulo</h2>
-            <form>
-                <div class="label__container">
-                    <label for="ladoUno">Lado 1:</label>
-                    <input type="number" name="lado" id="ladoUno" />
-                </div>
-                <div class="label__container">
-                    <label for="ladoDos">Lado 2:</label>
-                    <input type="number" name="lado" id="ladoDos" />
-                </div>
-                <div class="label__container">
-                    <label for="base">Base:</label>
-                    <input type="number" name="lado" id="base" />
-                </div>
-                <div class="buttons__container">
-                    <button class="button__calcular" type="button" onclick="calcularPerimetroTriangulo()">Perímetro</button>
-                    <button class="button__calcular" type="button" onclick="calcularAreaTriangulo()">Área</button>
-                </div>
-                <p id="resultTriangulo">0</p>
-            </form>
-        </section>
-        <section class="main__container">
-            <h2>Calcular la circunferencia y área de un circulo</h2>
-            <form>
-                <div class="label__container">
-                    <label for="radio">Radio:</label>
-                    <input type="number" name="radio" id="radio" />
-                </div>
-                <div class="buttons__container">
-                    <button class="button__calcular" type="button" onclick="calcularPerimetroCirculo()">Circunferencia</button>
-                    <button class="button__calcular" type="button" onclick="calcularAreaCirculo()">Área</button>
-                </div>
-                <p id="resultCirculo">0</p>
-            </form>
-        </section> 
-        <section class="main__container">
-            <h2>¿Es un triangulo isósceles? Si lo es, ¿Cuál es su altura?</h2>
-            <form>
-                <div class="label__container">
-                    <label for="ladoOne">Lado 1:</label>
-                    <input type="number" name="lado" id="ladoOne" />
-                </div>
-                <div class="label__container">
-                    <label for="ladoTwo">Lado 2:</label>
-                    <input type="number" name="lado" id="ladoTwo" />
-                </div>
-                <div class="label__container">
-                    <label for="base1">Base:</label>
-                    <input type="number" name="lado" id="base1" />
-                </div>
-                <div class="buttons__container">
-                    <button class="button__calcular" type="button" onclick="validacionTrianguloIsosceles()">¿Isósceles?</button>
-                    <button class="button__calcular" type="button" onclick="validacionAlturaTrianguloIsosceles()">Altura</button>
-                </div>
-                <p id="resultTrianguloIsosceles">0</p>
-            </form>
-        </section>       
+      <section class="main__container">
+        <h2>Calcular el perímetro y área de un cuadrado</h2>
+        <form>
+          <div class="label__container">
+            <label for="ladoCuadrado">Lado:</label>
+            <input type="number" name="lado" id="ladoCuadrado" />
+          </div>
+          <div class="buttons__container">
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="calcularPerimetroCuadrado()"
+            >
+              Perímetro
+            </button>
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="calcularAreaCuadrado()"
+            >
+              Área
+            </button>
+          </div>
+          <p id="resultCuadrado">0</p>
+        </form>
+      </section>
+      <section class="main__container">
+        <h2>Calcular el perímetro y área de un triangulo</h2>
+        <form>
+          <div class="label__container">
+            <label for="ladoUno">Lado 1:</label>
+            <input type="number" name="lado" id="ladoUno" />
+          </div>
+          <div class="label__container">
+            <label for="ladoDos">Lado 2:</label>
+            <input type="number" name="lado" id="ladoDos" />
+          </div>
+          <div class="label__container">
+            <label for="base">Base:</label>
+            <input type="number" name="lado" id="base" />
+          </div>
+          <div class="buttons__container">
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="calcularPerimetroTriangulo()"
+            >
+              Perímetro
+            </button>
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="calcularAreaTriangulo()"
+            >
+              Área
+            </button>
+          </div>
+          <p id="resultTriangulo">0</p>
+        </form>
+      </section>
+      <section class="main__container">
+        <h2>Calcular la circunferencia y área de un circulo</h2>
+        <form>
+          <div class="label__container">
+            <label for="radio">Radio:</label>
+            <input type="number" name="radio" id="radio" />
+          </div>
+          <div class="buttons__container">
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="calcularPerimetroCirculo()"
+            >
+              Circunferencia
+            </button>
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="calcularAreaCirculo()"
+            >
+              Área
+            </button>
+          </div>
+          <p id="resultCirculo">0</p>
+        </form>
+      </section>
+      <section class="main__container">
+        <h2>¿Es un triangulo isósceles? Si lo es, ¿Cuál es su altura?</h2>
+        <form>
+          <div class="label__container">
+            <label for="ladoOne">Lado 1:</label>
+            <input type="number" name="lado" id="ladoOne" />
+          </div>
+          <div class="label__container">
+            <label for="ladoTwo">Lado 2:</label>
+            <input type="number" name="lado" id="ladoTwo" />
+          </div>
+          <div class="label__container">
+            <label for="base1">Base:</label>
+            <input type="number" name="lado" id="base1" />
+          </div>
+          <div class="buttons__container">
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="validacionTrianguloIsosceles()"
+            >
+              ¿Isósceles?
+            </button>
+            <button
+              class="button__calcular"
+              type="button"
+              onclick="validacionAlturaTrianguloIsosceles()"
+            >
+              Altura
+            </button>
+          </div>
+          <p id="resultTrianguloIsosceles">0</p>
+        </form>
+      </section>
     </main>
     <footer>
-        <p>Hecho con 🚀 por <a href="">MauricioJCarrillo</a></p>
-    </footer>    
+      <p>Hecho con 🚀 por <a href="">MauricioJCarrillo</a></p>
+    </footer>
     <script src="./figuras.js"></script>
-</body>
+  </body>
 </html>

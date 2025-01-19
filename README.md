@@ -1,26 +1,22 @@
-# Curso practico de JavaScript - Platzi
+# Calculator webapp
 
-This is my first project using javascript concepts. 
+This is my first project using javascript concepts:
 
-...
+- Calculating geometric figures.
+- Calculating percentages and discounts.
+- Calculating average, mode and median.
 
-## Practice N°1: Figuras geométricas.
+I followed the next steps:
 
-- Primer paso: Definir las fórmulas.
-- Segundo paso: Implementar las fórmulas en JavaScript.
-- Tercer paso: Crear funciones.
-- Cuarto pasao: Integrar JavaScript con HTML. 
+- First step: Define the formulas.
+- Second step: Implement the formulas in JavaScript.
+- Third step: Create functions.
+- Fourth step: Integrate JavaScript with HTML.
 
-## Practice N°2: Porcentajes y descuentos.
+If you want to create a project like this, you can check out this course: [Curso Práctico de JavaScript - 2021](https://platzi.com/clases/old/javascript-practico-2021/) on Platzi
 
-- Primer paso: Definir las fórmulas.
-- Segundo paso: Implementar las fórmulas en JavaScript.
-- Tercer paso: Crear funciones.
-- Cuarto pasao: Integrar JavaScript con HTML.
+## Technologies and concepts
 
-## Practice N°3: Promedio, moda y mediana. 
-
-- Primer paso: Definir las fórmulas.
-- Segundo paso: Implementar las fórmulas en JavaScript.
-- Tercer paso: Crear funciones.
-- Cuarto pasao: Integrar JavaScript con HTML.
+- HTML.
+- CSS.
+- JavaScript-
